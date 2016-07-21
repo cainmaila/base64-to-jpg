@@ -1,0 +1,31 @@
+{
+  "name": "base64-to-jpg",
+  "version": "1.0.0",
+  "description": "base64 image to jpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cainmaila/base64-to-jpg.git"
+  },
+  "keywords": [
+    "base64",
+    "jpg"
+  ],
+  "author": "cainmaila@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cainmaila/base64-to-jpg/issues"
+  },
+  "homepage": "https://github.com/cainmaila/base64-to-jpg#readme",
+  "dependencies": {
+    "mozjpeg": "^4.1.1",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
