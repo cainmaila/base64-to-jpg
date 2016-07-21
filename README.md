@@ -1,4 +1,5 @@
 # base64-to-jpg
+[![Build Status](https://travis-ci.org/cainmaila/base64-to-jpg.svg?branch=master)](https://travis-ci.org/cainmaila/base64-to-jpg)
 
 ## Base64 Image to jpeg
 
