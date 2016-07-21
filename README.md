@@ -18,7 +18,13 @@ var Base64topjpg = require('base64-to-jpg');
 //this string cain src in img tag
 var base64Image = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDB.....
 
-Base64topjpg(base64Image, 'base64.jpg');
+Base64topjpg(base64Image, 'base64.jpg')
+	.then(function(path){
+		console.log('success !!');
+	})
+	.catch(function(err){
+		console.error(err);
+	})
 
 ```
 
